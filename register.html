@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="index.html"><img src="logo.png"></a>
+            <a class="button" href="login.html">Login</a>
+            <a class="button" href="register.html">Register</a>
+            <a class="button" href="dashboard.html">Dashboard</a>
+        </div>
+    </nav>
+    <div class="form">
+        <h1>Register Form</h1>
+        <form name="myForm" action="success.html" onsubmit="return validateRegister()">
+            <p>Name</p>
+            <input class="input" type="text" name="name" placeholder="Name">
+            <p>Email</p>
+            <input class="input" type="text" name="email" placeholder="Email">
+            <p>Username</p>
+            <input class="input" type="text" name="username" placeholder="Username">
+            <p>Password</p>
+            <input class="input" type="password" name="password" placeholder="Password">
+            <p>Confirm Password</p>
+            <input class="input" type="password" name="cpassword" placeholder="Confirm Password">
+            <button class="button" type="submit">Submit</button>
+            <button class="button" type="reset">Reset</button>
+        </form>
+        <a class="button" href="login.html">Sign in Instead</a>
+    </div>   
+</body>
+</html>
